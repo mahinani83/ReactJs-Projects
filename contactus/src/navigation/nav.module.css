@@ -1,0 +1,17 @@
+.navigation {
+  padding: 0;
+  margin: 0 ;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  background-color: aquamarine;
+ 
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}

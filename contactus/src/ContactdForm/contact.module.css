@@ -1,0 +1,108 @@
+.container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  width: 60%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.top_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.imgsection img {
+  height: 400px;
+  width: 400px;
+}
+.formcontrol {
+  width: 440px;
+  height: 50px;
+  display: flex;
+  margin-top: 10px;
+}
+.formcontrol label {
+  position: relative;
+  bottom: 11px;
+  left: 117px;
+  width: 70px;
+  height: 12px;
+  padding: 0px 1px;
+  color: black;
+  text-align: center;
+  border: 0.5px solid white;
+  background-color: white;
+}
+.formcontrol input {
+  width: 440px;
+  height: 30px;
+  padding: 0 10px;
+  border: 1px solid black;
+}
+.submitform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+textarea {
+  width: 440px;
+  height: 120px;
+  border: 1px solid black;
+  padding: 20px 20px;
+}
+.areadiv {
+  width: 440px;
+  height: 140px;
+  display: flex;
+  margin-top: 10px;
+}
+.areadiv label {
+  position: relative;
+  bottom: 11px;
+  left: 117px;
+  width: 70px;
+  height: 12px;
+  padding: 0px 1px;
+  color: black;
+  text-align: center;
+  border: 0.5px solid white;
+  background-color: white;
+}
+
+.submitbutton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 20px;
+}
+.submitbutton button {
+  background-color: black;
+  color: white;
+  width: 180px;
+  height: 44px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.displayresult {
+  margin: 20px;
+  width: 120%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
