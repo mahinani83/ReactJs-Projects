@@ -43,6 +43,9 @@ const Main = styled.div`
         width: 100%;
         align-items: center;
         gap: 24px;
+    
+
+       
     }
     h2{
         width: 100%;
@@ -60,7 +63,7 @@ const Main = styled.div`
    
   
 `
-    const Box = styled.div`
+    let Box = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
@@ -72,5 +75,11 @@ const Main = styled.div`
         text-align: center;
         background-color: ${(props) => props.isSelected ? "black" : "white"};
         color: ${(props)=> props.isSelected ? "white" : "black" };
-    
+        transition: 0.5s background ease-in;
+        &:hover{
+          background-color:gray;
+        }
+
     `
+    
+   
